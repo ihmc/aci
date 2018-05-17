@@ -19,3 +19,5 @@ dependencies {
    compile 'com.github.ihmc:aci:v1.1'
 }
 ```
+
+If building for Android use `com.github.ihmc:aci-android:v1.1`.
