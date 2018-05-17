@@ -3,11 +3,11 @@ Agile Computing Infrastructure Releases
 
 You can find source code and more information on the [nomads](https://github.com/ihmc/nomads) repo.
 
-# Gradle
+## Gradle
 Add [jitpack](https://jitpack.io/) repository:
 ```
 repositories {
-    jcenter()
+    ...
     maven { url "https://jitpack.io" }
 }
 ```
