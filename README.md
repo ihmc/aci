@@ -21,3 +21,11 @@ dependencies {
 ```
 
 If building for Android use `com.github.ihmc:aci-android:v1.1`.
+
+## Dependencies
+If not included already you will also need
+- slf4j (`'org.slf4j', name: 'slf4j-api', version: '1.7.25'`)
+
+On Android, if you need to chunk/reassemble open documents, you need
+- robolectric-0 ('org.robolectric:android-all:7.1.0_r7-robolectric-0'`)
+- poi-android.jar
